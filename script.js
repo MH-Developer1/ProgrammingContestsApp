@@ -15,7 +15,7 @@ FetchAPI.then((response) => {
     const keys = Object.keys(contests);
     for (let i = 0; i < keys.length; i++) {
         const key = keys[i];
-        if (i !== keys.length - 1) {
+        if (i !== keys.length) {
             console.log(contests[key]);
 
             let date = new Date(contests[key].start_time);
