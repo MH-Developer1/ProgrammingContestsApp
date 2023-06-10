@@ -74,7 +74,8 @@ FetchAPI.then((response) => {
 
 document.getElementById('searchButton').addEventListener('click', function (event) {
     event.preventDefault();
-    let searchTerm = document.getElementById('searchInput').value.trim(); // Get the search term and remove leading/trailing whitespace
+    let searchTermi = document.getElementById('searchInput').value.trim();
+    let searchTerm = searchTermi.toLowerCase() // Get the search term and remove leading/trailing whitespace
     if (searchTerm !== '') {
         let elements = document.querySelectorAll('h1, h2, h3, h4, h5, h6, p'); // Select the elements you want to search within
         for (let i = 0; i < elements.length; i++) {
