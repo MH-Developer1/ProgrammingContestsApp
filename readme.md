@@ -19,5 +19,3 @@ All rights reserved. This website, and its content are protected by copyright la
 ---
 
 Thank you for visiting the Programming Contest Aggregator! We hope you find it useful for staying informed about programming contests and enhancing your coding skills.
-
-For more information and updates, visit our website at [https://mh-developer1.github.io/ProgrammingContestsApp/].
